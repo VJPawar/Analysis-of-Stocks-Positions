@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_65e08c1c265c4e4c97a7c624528cb282 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_65e08c1c265c4e4c97a7c624528cb282" ></div>
+        
+</body>
+<script>    
+    
+            var map_65e08c1c265c4e4c97a7c624528cb282 = L.map(
+                "map_65e08c1c265c4e4c97a7c624528cb282",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5318fbc22023422fb0bfa7c19fb83892 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+            var marker_6fafb2fb9f95443e856d88d0e1e9886c = L.marker(
+                [44.9537029, -93.0899578],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_0c7c110814b746fab9e2bfe6d3d19e68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea95cc1bc24f4b37955ff61006fc24a4 = $(`<div id="html_ea95cc1bc24f4b37955ff61006fc24a4" style="width: 100.0%; height: 100.0%;">City: St. paul<br>Date First Added: nan<br>Sector: Industrials</div>`)[0];
+            popup_0c7c110814b746fab9e2bfe6d3d19e68.setContent(html_ea95cc1bc24f4b37955ff61006fc24a4);
+        
+
+        marker_6fafb2fb9f95443e856d88d0e1e9886c.bindPopup(popup_0c7c110814b746fab9e2bfe6d3d19e68)
+        ;
+
+        
+    
+    
+            var marker_48abefdb713c4601a614c3fbc3b73bdc = L.marker(
+                [42.325578, -87.8411818],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_c05c00be854c48f5ad9d79de2ac61bad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29188f7ec3534dbe912455b4c084590c = $(`<div id="html_29188f7ec3534dbe912455b4c084590c" style="width: 100.0%; height: 100.0%;">City: North chicago<br>Date First Added: 1964-03-31<br>Sector: Health Care</div>`)[0];
+            popup_c05c00be854c48f5ad9d79de2ac61bad.setContent(html_29188f7ec3534dbe912455b4c084590c);
+        
+
+        marker_48abefdb713c4601a614c3fbc3b73bdc.bindPopup(popup_c05c00be854c48f5ad9d79de2ac61bad)
+        ;
+
+        
+    
+    
+            var marker_bfd95775baff49f5b2ed4d08044fff34 = L.marker(
+                [42.325578, -87.8411818],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_f2ced64bebf04187b77e83504c610f3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7e226d372414196bb29f0e9764390da = $(`<div id="html_c7e226d372414196bb29f0e9764390da" style="width: 100.0%; height: 100.0%;">City: North chicago<br>Date First Added: 2012-12-31<br>Sector: Health Care</div>`)[0];
+            popup_f2ced64bebf04187b77e83504c610f3b.setContent(html_c7e226d372414196bb29f0e9764390da);
+        
+
+        marker_bfd95775baff49f5b2ed4d08044fff34.bindPopup(popup_f2ced64bebf04187b77e83504c610f3b)
+        ;
+
+        
+    
+    
+            var marker_71a1eec8603141a5b77d13ee5447c8f2 = L.marker(
+                [42.5750009, -70.93212199999999],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_ae69f7f2eed846f1a034d7bd80b1c2c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8eeee69809184488af7ee94c1268f345 = $(`<div id="html_8eeee69809184488af7ee94c1268f345" style="width: 100.0%; height: 100.0%;">City: Danvers<br>Date First Added: 2018-05-31<br>Sector: Health Care</div>`)[0];
+            popup_ae69f7f2eed846f1a034d7bd80b1c2c0.setContent(html_8eeee69809184488af7ee94c1268f345);
+        
+
+        marker_71a1eec8603141a5b77d13ee5447c8f2.bindPopup(popup_ae69f7f2eed846f1a034d7bd80b1c2c0)
+        ;
+
+        
+    
+    
+            var marker_a4d045b3b42f40b19d5c3b6b6012fc0d = L.marker(
+                [53.3498053, -6.2603097],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_45f1003768ad44508aae43a3a5130f53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b6834234c534bf99c3a95c2e9238178 = $(`<div id="html_2b6834234c534bf99c3a95c2e9238178" style="width: 100.0%; height: 100.0%;">City: Dublin<br>Date First Added: 2011-07-06<br>Sector: Information Technology</div>`)[0];
+            popup_45f1003768ad44508aae43a3a5130f53.setContent(html_2b6834234c534bf99c3a95c2e9238178);
+        
+
+        marker_a4d045b3b42f40b19d5c3b6b6012fc0d.bindPopup(popup_45f1003768ad44508aae43a3a5130f53)
+        ;
+
+        
+    
+    
+            var marker_7c4374ca9f44470da9b682004430ca6a = L.marker(
+                [34.0194543, -118.4911912],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_3e5135afae5541f891068d9156c891b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9074394ffdfd4d6e8c079517fab5ef92 = $(`<div id="html_9074394ffdfd4d6e8c079517fab5ef92" style="width: 100.0%; height: 100.0%;">City: Santa monica<br>Date First Added: 2015-08-31<br>Sector: Communication Services</div>`)[0];
+            popup_3e5135afae5541f891068d9156c891b3.setContent(html_9074394ffdfd4d6e8c079517fab5ef92);
+        
+
+        marker_7c4374ca9f44470da9b682004430ca6a.bindPopup(popup_3e5135afae5541f891068d9156c891b3)
+        ;
+
+        
+    
+    
+            var marker_b90ae1a770c341b39aa75c8c0d09a0a0 = L.marker(
+                [37.3382082, -121.8863286],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_5901109d1a4d4624b7d3238a4b745bbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5748d63119134159b24d2c34ed5bcde7 = $(`<div id="html_5748d63119134159b24d2c34ed5bcde7" style="width: 100.0%; height: 100.0%;">City: San jose<br>Date First Added: 1997-05-05<br>Sector: Information Technology</div>`)[0];
+            popup_5901109d1a4d4624b7d3238a4b745bbc.setContent(html_5748d63119134159b24d2c34ed5bcde7);
+        
+
+        marker_b90ae1a770c341b39aa75c8c0d09a0a0.bindPopup(popup_5901109d1a4d4624b7d3238a4b745bbc)
+        ;
+
+        
+    
+    
+            var marker_b73d9612a008494195e723f3ea78ae8b = L.marker(
+                [37.36883, -122.0363496],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_ff29e200669b4187839f9f142556d221 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_269aae5308074250ae5b959fc826dbcc = $(`<div id="html_269aae5308074250ae5b959fc826dbcc" style="width: 100.0%; height: 100.0%;">City: Sunnyvale<br>Date First Added: 2017-03-20<br>Sector: Information Technology</div>`)[0];
+            popup_ff29e200669b4187839f9f142556d221.setContent(html_269aae5308074250ae5b959fc826dbcc);
+        
+
+        marker_b73d9612a008494195e723f3ea78ae8b.bindPopup(popup_ff29e200669b4187839f9f142556d221)
+        ;
+
+        
+    
+    
+            var marker_60d42f8409ac4130a1c7fda6f9121e38 = L.marker(
+                [37.2709704, -79.9414266],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_5168b055c60b4a1193c3d5fcb7ca9b69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7685e492feba449491f5e261f3d32924 = $(`<div id="html_7685e492feba449491f5e261f3d32924" style="width: 100.0%; height: 100.0%;">City: Roanoke<br>Date First Added: 2015-07-09<br>Sector: Consumer Discretionary</div>`)[0];
+            popup_5168b055c60b4a1193c3d5fcb7ca9b69.setContent(html_7685e492feba449491f5e261f3d32924);
+        
+
+        marker_60d42f8409ac4130a1c7fda6f9121e38.bindPopup(popup_5168b055c60b4a1193c3d5fcb7ca9b69)
+        ;
+
+        
+    
+    
+            var marker_c65212bc904649d6aeb6786a4b20904d = L.marker(
+                [38.8799697, -77.1067698],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_4de07dcd54d34e10bd4635acb1ed68d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f68560daa184e49839fab41d886ba46 = $(`<div id="html_8f68560daa184e49839fab41d886ba46" style="width: 100.0%; height: 100.0%;">City: Arlington<br>Date First Added: 1998-10-02<br>Sector: Utilities</div>`)[0];
+            popup_4de07dcd54d34e10bd4635acb1ed68d3.setContent(html_8f68560daa184e49839fab41d886ba46);
+        
+
+        marker_c65212bc904649d6aeb6786a4b20904d.bindPopup(popup_4de07dcd54d34e10bd4635acb1ed68d3)
+        ;
+
+        
+    
+    
+            var marker_41feb8f7097a4942a1d76774e86ac7b8 = L.marker(
+                [42.5584283, -70.880049],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_3971d975469342098f16e984d7b82b24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7c75ac6a34c44e3843877994bf5bd51 = $(`<div id="html_b7c75ac6a34c44e3843877994bf5bd51" style="width: 100.0%; height: 100.0%;">City: Beverly<br>Date First Added: 2014-07-01<br>Sector: Financials</div>`)[0];
+            popup_3971d975469342098f16e984d7b82b24.setContent(html_b7c75ac6a34c44e3843877994bf5bd51);
+        
+
+        marker_41feb8f7097a4942a1d76774e86ac7b8.bindPopup(popup_3971d975469342098f16e984d7b82b24)
+        ;
+
+        
+    
+    
+            var marker_c89b621156074fe4afe0f4beb0821d99 = L.marker(
+                [32.4609764, -84.9877094],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_3f780980b0c14c6d8786601fa378ded6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb8615f899304a6abecade401481e354 = $(`<div id="html_fb8615f899304a6abecade401481e354" style="width: 100.0%; height: 100.0%;">City: Columbus<br>Date First Added: 1999-05-28<br>Sector: Financials</div>`)[0];
+            popup_3f780980b0c14c6d8786601fa378ded6.setContent(html_fb8615f899304a6abecade401481e354);
+        
+
+        marker_c89b621156074fe4afe0f4beb0821d99.bindPopup(popup_3f780980b0c14c6d8786601fa378ded6)
+        ;
+
+        
+    
+    
+            var marker_7aa6d7edd5d34d5aa46a410398e037d5 = L.marker(
+                [37.3541079, -121.9552356],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_8663b7bca88b407dba94c2b2113cff69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69e26cbac0ce463d8e3b775323269f0e = $(`<div id="html_69e26cbac0ce463d8e3b775323269f0e" style="width: 100.0%; height: 100.0%;">City: Santa clara<br>Date First Added: 2000-06-05<br>Sector: Health Care</div>`)[0];
+            popup_8663b7bca88b407dba94c2b2113cff69.setContent(html_69e26cbac0ce463d8e3b775323269f0e);
+        
+
+        marker_7aa6d7edd5d34d5aa46a410398e037d5.bindPopup(popup_8663b7bca88b407dba94c2b2113cff69)
+        ;
+
+        
+    
+    
+            var marker_ba4a97eca24942a582bf0e8121ad12ab = L.marker(
+                [40.6022939, -75.4714098],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_7a175bea1c95400696fc4657afb7ac19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b643d8a482a418f89ad040f3d089925 = $(`<div id="html_9b643d8a482a418f89ad040f3d089925" style="width: 100.0%; height: 100.0%;">City: Allentown<br>Date First Added: 1985-04-30<br>Sector: Materials</div>`)[0];
+            popup_7a175bea1c95400696fc4657afb7ac19.setContent(html_9b643d8a482a418f89ad040f3d089925);
+        
+
+        marker_ba4a97eca24942a582bf0e8121ad12ab.bindPopup(popup_7a175bea1c95400696fc4657afb7ac19)
+        ;
+
+        
+    
+    
+            var marker_17a2bb01768b4bd9ab8e8658eb77ffe4 = L.marker(
+                [42.3736158, -71.10973349999999],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_c3b4531dc7694ea1b4212e291b4c191b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_237ff4aeaa1f41b6bd7139325462bc1e = $(`<div id="html_237ff4aeaa1f41b6bd7139325462bc1e" style="width: 100.0%; height: 100.0%;">City: Cambridge<br>Date First Added: 2007-07-12<br>Sector: Information Technology</div>`)[0];
+            popup_c3b4531dc7694ea1b4212e291b4c191b.setContent(html_237ff4aeaa1f41b6bd7139325462bc1e);
+        
+
+        marker_17a2bb01768b4bd9ab8e8658eb77ffe4.bindPopup(popup_c3b4531dc7694ea1b4212e291b4c191b)
+        ;
+
+        
+    
+    
+            var marker_ae4eb3295abf424b811105150acce423 = L.marker(
+                [47.6062095, -122.3320708],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_348be5de0f734e5e8314f75fb6628874 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a90e90323fa4556a24cdd3a17039dc4 = $(`<div id="html_2a90e90323fa4556a24cdd3a17039dc4" style="width: 100.0%; height: 100.0%;">City: Seattle<br>Date First Added: 2016-05-13<br>Sector: Industrials</div>`)[0];
+            popup_348be5de0f734e5e8314f75fb6628874.setContent(html_2a90e90323fa4556a24cdd3a17039dc4);
+        
+
+        marker_ae4eb3295abf424b811105150acce423.bindPopup(popup_348be5de0f734e5e8314f75fb6628874)
+        ;
+
+        
+    
+    
+            var marker_c7f421cfa0e0433cb4bcd3b42e956fc2 = L.marker(
+                [30.4514677, -91.18714659999999],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_66638b64c1344027b8db56a5c8fc9f0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4212f5537f84a809e2a6530b4fb713f = $(`<div id="html_a4212f5537f84a809e2a6530b4fb713f" style="width: 100.0%; height: 100.0%;">City: Baton rouge<br>Date First Added: 2016-07-01<br>Sector: Materials</div>`)[0];
+            popup_66638b64c1344027b8db56a5c8fc9f0c.setContent(html_a4212f5537f84a809e2a6530b4fb713f);
+        
+
+        marker_c7f421cfa0e0433cb4bcd3b42e956fc2.bindPopup(popup_66638b64c1344027b8db56a5c8fc9f0c)
+        ;
+
+        
+    
+    
+            var marker_dc7eb7beca5a4b0d8f49fbea7c873dc8 = L.marker(
+                [34.1477849, -118.1445155],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_488772d38a01499482122dd6a69af5ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f2a2ebb28f84957bc628ed590374921 = $(`<div id="html_8f2a2ebb28f84957bc628ed590374921" style="width: 100.0%; height: 100.0%;">City: Pasadena<br>Date First Added: 2017-03-20<br>Sector: Real Estate</div>`)[0];
+            popup_488772d38a01499482122dd6a69af5ce.setContent(html_8f2a2ebb28f84957bc628ed590374921);
+        
+
+        marker_dc7eb7beca5a4b0d8f49fbea7c873dc8.bindPopup(popup_488772d38a01499482122dd6a69af5ce)
+        ;
+
+        
+    
+    
+            var marker_48f16721b31c4c2d96d3ffe611f856de = L.marker(
+                [41.5083668, -72.9106202],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_72a10a90202544458e65d2b1e9db10a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_697ba1398ee64547abdcc445f98e26f2 = $(`<div id="html_697ba1398ee64547abdcc445f98e26f2" style="width: 100.0%; height: 100.0%;">City: Cheshire<br>Date First Added: 2012-05-25<br>Sector: Health Care</div>`)[0];
+            popup_72a10a90202544458e65d2b1e9db10a2.setContent(html_697ba1398ee64547abdcc445f98e26f2);
+        
+
+        marker_48f16721b31c4c2d96d3ffe611f856de.bindPopup(popup_72a10a90202544458e65d2b1e9db10a2)
+        ;
+
+        
+    
+    
+            var marker_cc2828bdc2084769abb74a714d54f1c7 = L.marker(
+                [37.3382082, -121.8863286],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_28652074dca9454e98aa0b7a25f67fb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f83b88a5cc9f481ba95f19e0604783c7 = $(`<div id="html_f83b88a5cc9f481ba95f19e0604783c7" style="width: 100.0%; height: 100.0%;">City: San jose<br>Date First Added: 2017-06-19<br>Sector: Health Care</div>`)[0];
+            popup_28652074dca9454e98aa0b7a25f67fb0.setContent(html_f83b88a5cc9f481ba95f19e0604783c7);
+        
+
+        marker_cc2828bdc2084769abb74a714d54f1c7.bindPopup(popup_28652074dca9454e98aa0b7a25f67fb0)
+        ;
+
+        
+    
+    
+            var marker_acdc6aa19d874c399d08aba735eeae54 = L.marker(
+                [53.3498053, -6.2603097],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_cc88422e2cac4f1eb16ff0dcf9203da3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e006682846654cb99f7492d169706330 = $(`<div id="html_e006682846654cb99f7492d169706330" style="width: 100.0%; height: 100.0%;">City: Dublin<br>Date First Added: 2013-12-02<br>Sector: Industrials</div>`)[0];
+            popup_cc88422e2cac4f1eb16ff0dcf9203da3.setContent(html_e006682846654cb99f7492d169706330);
+        
+
+        marker_acdc6aa19d874c399d08aba735eeae54.bindPopup(popup_cc88422e2cac4f1eb16ff0dcf9203da3)
+        ;
+
+        
+    
+    
+            var marker_9bac13cf3fd54e95a352fa04fbdadc36 = L.marker(
+                [53.3498053, -6.2603097],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_da0fe3010a664a53a8360c07aea71cad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1da5a172d1324316853c3bd9f29224a9 = $(`<div id="html_1da5a172d1324316853c3bd9f29224a9" style="width: 100.0%; height: 100.0%;">City: Dublin<br>Date First Added: 1999-04-12<br>Sector: Health Care</div>`)[0];
+            popup_da0fe3010a664a53a8360c07aea71cad.setContent(html_1da5a172d1324316853c3bd9f29224a9);
+        
+
+        marker_9bac13cf3fd54e95a352fa04fbdadc36.bindPopup(popup_da0fe3010a664a53a8360c07aea71cad)
+        ;
+
+        
+    
+    
+            var marker_d4a8048303e746c393be184830333e99 = L.marker(
+                [33.0198431, -96.6988856],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_0adb636a33d04bf8bd2700bef2d1be19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3788d0d40d434204a34200ca5f78d776 = $(`<div id="html_3788d0d40d434204a34200ca5f78d776" style="width: 100.0%; height: 100.0%;">City: Plano<br>Date First Added: 2013-12-23<br>Sector: Information Technology</div>`)[0];
+            popup_0adb636a33d04bf8bd2700bef2d1be19.setContent(html_3788d0d40d434204a34200ca5f78d776);
+        
+
+        marker_d4a8048303e746c393be184830333e99.bindPopup(popup_0adb636a33d04bf8bd2700bef2d1be19)
+        ;
+
+        
+    
+    
+            var marker_45466d3cb4f14eaab1a7cb509da3eac9 = L.marker(
+                [43.0730517, -89.4012302],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_153fd191cc0d48d48554bf59e97a38f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1a7bed1b741414e9dfc301626232a03 = $(`<div id="html_f1a7bed1b741414e9dfc301626232a03" style="width: 100.0%; height: 100.0%;">City: Madison<br>Date First Added: 2016-07-01<br>Sector: Utilities</div>`)[0];
+            popup_153fd191cc0d48d48554bf59e97a38f9.setContent(html_f1a7bed1b741414e9dfc301626232a03);
+        
+
+        marker_45466d3cb4f14eaab1a7cb509da3eac9.bindPopup(popup_153fd191cc0d48d48554bf59e97a38f9)
+        ;
+
+        
+    
+    
+            var marker_912881c235bf4d25a400c6eaa7ebebfc = L.marker(
+                [42.1164563, -87.82937179999999],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_5ecf32dc01f047b3b3d700ee21e75111 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afe8e19fc91f4695b21e3cd2cde4f510 = $(`<div id="html_afe8e19fc91f4695b21e3cd2cde4f510" style="width: 100.0%; height: 100.0%;">City: Northfield township<br>Date First Added: 1995-07-13<br>Sector: Financials</div>`)[0];
+            popup_5ecf32dc01f047b3b3d700ee21e75111.setContent(html_afe8e19fc91f4695b21e3cd2cde4f510);
+        
+
+        marker_912881c235bf4d25a400c6eaa7ebebfc.bindPopup(popup_5ecf32dc01f047b3b3d700ee21e75111)
+        ;
+
+        
+    
+    
+            var marker_e6aa798780734c39a92462616c009c50 = L.marker(
+                [37.3860517, -122.0838511],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_b190b68267214600bb3a9fa32a1fa80d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c5b7c752a4f473ea9f1427785062e7b = $(`<div id="html_3c5b7c752a4f473ea9f1427785062e7b" style="width: 100.0%; height: 100.0%;">City: Mountain view<br>Date First Added: 2014-04-03<br>Sector: Communication Services</div>`)[0];
+            popup_b190b68267214600bb3a9fa32a1fa80d.setContent(html_3c5b7c752a4f473ea9f1427785062e7b);
+        
+
+        marker_e6aa798780734c39a92462616c009c50.bindPopup(popup_b190b68267214600bb3a9fa32a1fa80d)
+        ;
+
+        
+    
+    
+            var marker_3b643656ea4e4dfdb76eab2959bda81d = L.marker(
+                [37.3860517, -122.0838511],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_f5d5889b08b9498ba368f1b824ae30c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d5bc66749694cedba0d994d5bb5ccb1 = $(`<div id="html_9d5bc66749694cedba0d994d5bb5ccb1" style="width: 100.0%; height: 100.0%;">City: Mountain view<br>Date First Added: 2006-04-03<br>Sector: Communication Services</div>`)[0];
+            popup_f5d5889b08b9498ba368f1b824ae30c6.setContent(html_9d5bc66749694cedba0d994d5bb5ccb1);
+        
+
+        marker_3b643656ea4e4dfdb76eab2959bda81d.bindPopup(popup_f5d5889b08b9498ba368f1b824ae30c6)
+        ;
+
+        
+    
+    
+            var marker_e26040c35aec49e69d5f8469adc8ca8f = L.marker(
+                [37.5407246, -77.4360481],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_1b23c8eae3e54e6dbfabee1630bd8518 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0ec72d05f9e476a94c16e43b576473c = $(`<div id="html_e0ec72d05f9e476a94c16e43b576473c" style="width: 100.0%; height: 100.0%;">City: Richmond<br>Date First Added: nan<br>Sector: Consumer Staples</div>`)[0];
+            popup_1b23c8eae3e54e6dbfabee1630bd8518.setContent(html_e0ec72d05f9e476a94c16e43b576473c);
+        
+
+        marker_e26040c35aec49e69d5f8469adc8ca8f.bindPopup(popup_1b23c8eae3e54e6dbfabee1630bd8518)
+        ;
+
+        
+    
+    
+            var marker_f6701bd959d54f8fa837d04aa67850ad = L.marker(
+                [47.6062095, -122.3320708],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_ab9a8edea51e43649a54464b19ab6c68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f45fed185f2f4f60b62a7068c28da468 = $(`<div id="html_f45fed185f2f4f60b62a7068c28da468" style="width: 100.0%; height: 100.0%;">City: Seattle<br>Date First Added: 2005-11-18<br>Sector: Consumer Discretionary</div>`)[0];
+            popup_ab9a8edea51e43649a54464b19ab6c68.setContent(html_f45fed185f2f4f60b62a7068c28da468);
+        
+
+        marker_f6701bd959d54f8fa837d04aa67850ad.bindPopup(popup_ab9a8edea51e43649a54464b19ab6c68)
+        ;
+
+        
+    
+    
+            var marker_f885c2b7d3c244f68d47c724175a0dee = L.marker(
+                [38.6270025, -90.19940419999999],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_8ac35bf2584443d79ae6c7c761a3cea3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb7d9879dc5548f9a78d3e48f1288137 = $(`<div id="html_fb7d9879dc5548f9a78d3e48f1288137" style="width: 100.0%; height: 100.0%;">City: St. louis<br>Date First Added: 1991-09-19<br>Sector: Utilities</div>`)[0];
+            popup_8ac35bf2584443d79ae6c7c761a3cea3.setContent(html_fb7d9879dc5548f9a78d3e48f1288137);
+        
+
+        marker_f885c2b7d3c244f68d47c724175a0dee.bindPopup(popup_8ac35bf2584443d79ae6c7c761a3cea3)
+        ;
+
+        
+    
+    
+            var marker_dec8a3faa93f44cb93c27e2e5c4ae983 = L.marker(
+                [32.7554883, -97.3307658],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_08da59a9058b43a0a3ed102c6636ddc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91be7e17d23a4de78e3c6ce97aace43f = $(`<div id="html_91be7e17d23a4de78e3c6ce97aace43f" style="width: 100.0%; height: 100.0%;">City: Fort worth<br>Date First Added: 2015-03-23<br>Sector: Industrials</div>`)[0];
+            popup_08da59a9058b43a0a3ed102c6636ddc7.setContent(html_91be7e17d23a4de78e3c6ce97aace43f);
+        
+
+        marker_dec8a3faa93f44cb93c27e2e5c4ae983.bindPopup(popup_08da59a9058b43a0a3ed102c6636ddc7)
+        ;
+
+        
+    
+    
+            var marker_6b8b6168e1944917a90b830700499c69 = L.marker(
+                [39.9611755, -82.99879419999999],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_5ab14f2366464bdca8598c3b8904ba16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce5eaa333ca54decbf2b67d11285b3f3 = $(`<div id="html_ce5eaa333ca54decbf2b67d11285b3f3" style="width: 100.0%; height: 100.0%;">City: Columbus<br>Date First Added: nan<br>Sector: Utilities</div>`)[0];
+            popup_5ab14f2366464bdca8598c3b8904ba16.setContent(html_ce5eaa333ca54decbf2b67d11285b3f3);
+        
+
+        marker_6b8b6168e1944917a90b830700499c69.bindPopup(popup_5ab14f2366464bdca8598c3b8904ba16)
+        ;
+
+        
+    
+    
+            var marker_6d8bcc0dc46f46e9b376de2f7e190482 = L.marker(
+                [40.7127753, -74.0059728],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_eb964766bb014940abb363c693f59fbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f37318c083e34b4783c8445bf6fe0f9c = $(`<div id="html_f37318c083e34b4783c8445bf6fe0f9c" style="width: 100.0%; height: 100.0%;">City: New york<br>Date First Added: 1976-06-30<br>Sector: Financials</div>`)[0];
+            popup_eb964766bb014940abb363c693f59fbd.setContent(html_f37318c083e34b4783c8445bf6fe0f9c);
+        
+
+        marker_6d8bcc0dc46f46e9b376de2f7e190482.bindPopup(popup_eb964766bb014940abb363c693f59fbd)
+        ;
+
+        
+    
+    
+            var marker_9d3aaba0c2bd43e0a3d24b2a40ea3efb = L.marker(
+                [40.7127753, -74.0059728],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_6adcd739a30049428e86f2a2c038b83a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7234fb8933fe46cc933f02c4f458c2b7 = $(`<div id="html_7234fb8933fe46cc933f02c4f458c2b7" style="width: 100.0%; height: 100.0%;">City: New york<br>Date First Added: 1980-03-31<br>Sector: Financials</div>`)[0];
+            popup_6adcd739a30049428e86f2a2c038b83a.setContent(html_7234fb8933fe46cc933f02c4f458c2b7);
+        
+
+        marker_9d3aaba0c2bd43e0a3d24b2a40ea3efb.bindPopup(popup_6adcd739a30049428e86f2a2c038b83a)
+        ;
+
+        
+    
+    
+            var marker_2d3b274fcce24784adbfc9344d989213 = L.marker(
+                [42.3600825, -71.0588801],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_832ef19c32014f72b2af0c2aa0f129b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11a2aa3f4bb34a44953840b398816d92 = $(`<div id="html_11a2aa3f4bb34a44953840b398816d92" style="width: 100.0%; height: 100.0%;">City: Boston<br>Date First Added: 2007-11-19<br>Sector: Real Estate</div>`)[0];
+            popup_832ef19c32014f72b2af0c2aa0f129b1.setContent(html_11a2aa3f4bb34a44953840b398816d92);
+        
+
+        marker_2d3b274fcce24784adbfc9344d989213.bindPopup(popup_832ef19c32014f72b2af0c2aa0f129b1)
+        ;
+
+        
+    
+    
+            var marker_77f9dba321eb431cba36ffcb8f4cebf5 = L.marker(
+                [39.8519447, -74.961517],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_da487e58b9414ab18ce1e9cbd88257e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_873313fa816d404893bc1834608d9295 = $(`<div id="html_873313fa816d404893bc1834608d9295" style="width: 100.0%; height: 100.0%;">City: Voorhees<br>Date First Added: 2016-03-04<br>Sector: Utilities</div>`)[0];
+            popup_da487e58b9414ab18ce1e9cbd88257e9.setContent(html_873313fa816d404893bc1834608d9295);
+        
+
+        marker_77f9dba321eb431cba36ffcb8f4cebf5.bindPopup(popup_da487e58b9414ab18ce1e9cbd88257e9)
+        ;
+
+        
+    
+    
+            var marker_249aa40b0f094c6c8609d739c6587dbc = L.marker(
+                [44.977753, -93.2650108],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_e05b8d0ce7d94f6ca27d1a949026440b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eecc2a5f8476488bb144d4f31f9513ed = $(`<div id="html_eecc2a5f8476488bb144d4f31f9513ed" style="width: 100.0%; height: 100.0%;">City: Minneapolis<br>Date First Added: 2005-10-03<br>Sector: Financials</div>`)[0];
+            popup_e05b8d0ce7d94f6ca27d1a949026440b.setContent(html_eecc2a5f8476488bb144d4f31f9513ed);
+        
+
+        marker_249aa40b0f094c6c8609d739c6587dbc.bindPopup(popup_e05b8d0ce7d94f6ca27d1a949026440b)
+        ;
+
+        
+    
+    
+            var marker_8157af7862b7448f868d701322c9fd97 = L.marker(
+                [40.0756627, -75.45908159999999],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_e7b56f1199fa4842bf5cd75468eb5a6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4faf119d17654816ae11a2032ce4faee = $(`<div id="html_4faf119d17654816ae11a2032ce4faee" style="width: 100.0%; height: 100.0%;">City: Chesterbrook<br>Date First Added: 2001-08-30<br>Sector: Health Care</div>`)[0];
+            popup_e7b56f1199fa4842bf5cd75468eb5a6a.setContent(html_4faf119d17654816ae11a2032ce4faee);
+        
+
+        marker_8157af7862b7448f868d701322c9fd97.bindPopup(popup_e7b56f1199fa4842bf5cd75468eb5a6a)
+        ;
+
+        
+    
+    
+            var marker_d275623abbcc47bb8dcebfd257b71534 = L.marker(
+                [40.045824, -75.4395931],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_7f262fde24d14e829882ea6a5ccd571d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_765cef4b65ba44148c556305c53c38fd = $(`<div id="html_765cef4b65ba44148c556305c53c38fd" style="width: 100.0%; height: 100.0%;">City: Berwyn<br>Date First Added: 2013-09-23<br>Sector: Industrials</div>`)[0];
+            popup_7f262fde24d14e829882ea6a5ccd571d.setContent(html_765cef4b65ba44148c556305c53c38fd);
+        
+
+        marker_d275623abbcc47bb8dcebfd257b71534.bindPopup(popup_7f262fde24d14e829882ea6a5ccd571d)
+        ;
+
+        
+    
+    
+            var marker_04c2452f717b4755b3a55163d90d519b = L.marker(
+                [34.1705609, -118.8375937],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_a7891a19989c4f458afbe02c4e01df8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4b618233f4846fa9a18442cb7bec78a = $(`<div id="html_f4b618233f4846fa9a18442cb7bec78a" style="width: 100.0%; height: 100.0%;">City: Thousand oaks<br>Date First Added: 1992-01-02<br>Sector: Health Care</div>`)[0];
+            popup_a7891a19989c4f458afbe02c4e01df8e.setContent(html_f4b618233f4846fa9a18442cb7bec78a);
+        
+
+        marker_04c2452f717b4755b3a55163d90d519b.bindPopup(popup_a7891a19989c4f458afbe02c4e01df8e)
+        ;
+
+        
+    
+    
+            var marker_2daaf96ebf4e4b83b6bf8960f20d102d = L.marker(
+                [41.4570108, -72.8230736],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_63eda0cfff3e437b8c98e38a49475434 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ed0da9b6d0545f084d1d218cd45669d = $(`<div id="html_7ed0da9b6d0545f084d1d218cd45669d" style="width: 100.0%; height: 100.0%;">City: Wallingford<br>Date First Added: 2008-09-30<br>Sector: Information Technology</div>`)[0];
+            popup_63eda0cfff3e437b8c98e38a49475434.setContent(html_7ed0da9b6d0545f084d1d218cd45669d);
+        
+
+        marker_2daaf96ebf4e4b83b6bf8960f20d102d.bindPopup(popup_63eda0cfff3e437b8c98e38a49475434)
+        ;
+
+        
+    
+    
+            var marker_5fffc06cd420430a9c0e3988f93619c2 = L.marker(
+                [30.1658207, -95.46126249999999],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_b009d326f0734a9a81c177a30478418e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae13f2a2fbcd4dde8923a1a7149cbfa7 = $(`<div id="html_ae13f2a2fbcd4dde8923a1a7149cbfa7" style="width: 100.0%; height: 100.0%;">City: The woodlands<br>Date First Added: 1997-07-28<br>Sector: Energy</div>`)[0];
+            popup_b009d326f0734a9a81c177a30478418e.setContent(html_ae13f2a2fbcd4dde8923a1a7149cbfa7);
+        
+
+        marker_5fffc06cd420430a9c0e3988f93619c2.bindPopup(popup_b009d326f0734a9a81c177a30478418e)
+        ;
+
+        
+    
+    
+            var marker_18adf675be2d4537b3facb1ba95f68ea = L.marker(
+                [42.19439089999999, -71.19896949999999],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_7cafb1aad0b7467bba3d77b1df2b5ac9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_884080dfb1ea445e899333ca9a7c835d = $(`<div id="html_884080dfb1ea445e899333ca9a7c835d" style="width: 100.0%; height: 100.0%;">City: Norwood<br>Date First Added: 1999-10-12<br>Sector: Information Technology</div>`)[0];
+            popup_7cafb1aad0b7467bba3d77b1df2b5ac9.setContent(html_884080dfb1ea445e899333ca9a7c835d);
+        
+
+        marker_18adf675be2d4537b3facb1ba95f68ea.bindPopup(popup_7cafb1aad0b7467bba3d77b1df2b5ac9)
+        ;
+
+        
+    
+    
+            var marker_6f3ba3713b744b6088000205bf5bfa2d = L.marker(
+                [40.2625702, -80.18727969999999],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_9e177be7aebd46219c31a817f57648c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34c5d27f11bb47e08c2a451bcdfe7927 = $(`<div id="html_34c5d27f11bb47e08c2a451bcdfe7927" style="width: 100.0%; height: 100.0%;">City: Canonsburg<br>Date First Added: 2017-06-19<br>Sector: Information Technology</div>`)[0];
+            popup_9e177be7aebd46219c31a817f57648c7.setContent(html_34c5d27f11bb47e08c2a451bcdfe7927);
+        
+
+        marker_6f3ba3713b744b6088000205bf5bfa2d.bindPopup(popup_9e177be7aebd46219c31a817f57648c7)
+        ;
+
+        
+    
+    
+            var marker_80288594b37c41a1a8f5887286d9e326 = L.marker(
+                [39.768403, -86.158068],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_8d7d79787e2c47ac91c79946f1fb15f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e0fc0be44fe4d3fa5ed5903a861b61a = $(`<div id="html_7e0fc0be44fe4d3fa5ed5903a861b61a" style="width: 100.0%; height: 100.0%;">City: Indianapolis<br>Date First Added: 2002-07-25<br>Sector: Health Care</div>`)[0];
+            popup_8d7d79787e2c47ac91c79946f1fb15f4.setContent(html_7e0fc0be44fe4d3fa5ed5903a861b61a);
+        
+
+        marker_80288594b37c41a1a8f5887286d9e326.bindPopup(popup_8d7d79787e2c47ac91c79946f1fb15f4)
+        ;
+
+        
+    
+    
+            var marker_c4ee7ad450ee46bf9638df09f3d6b9ea = L.marker(
+                [51.5073509, -0.1277583],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_1c2b29d417864df88819d673fc3fa7e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_630cdc9b946a40a995323de783fc1b6a = $(`<div id="html_630cdc9b946a40a995323de783fc1b6a" style="width: 100.0%; height: 100.0%;">City: London<br>Date First Added: 1996-04-23<br>Sector: Financials</div>`)[0];
+            popup_1c2b29d417864df88819d673fc3fa7e1.setContent(html_630cdc9b946a40a995323de783fc1b6a);
+        
+
+        marker_c4ee7ad450ee46bf9638df09f3d6b9ea.bindPopup(popup_1c2b29d417864df88819d673fc3fa7e1)
+        ;
+
+        
+    
+    
+            var marker_33df8b1bfb6f441f9c5bbf13e5fed7ca = L.marker(
+                [43.0389025, -87.9064736],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_1e79c94f9b344ace835ded7f950dd2c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d1ec8b4cd304fd791213f4a7f70861b = $(`<div id="html_5d1ec8b4cd304fd791213f4a7f70861b" style="width: 100.0%; height: 100.0%;">City: Milwaukee<br>Date First Added: 2017-07-26<br>Sector: Industrials</div>`)[0];
+            popup_1e79c94f9b344ace835ded7f950dd2c8.setContent(html_5d1ec8b4cd304fd791213f4a7f70861b);
+        
+
+        marker_33df8b1bfb6f441f9c5bbf13e5fed7ca.bindPopup(popup_1e79c94f9b344ace835ded7f950dd2c8)
+        ;
+
+        
+    
+    
+            var marker_d4a646643264488499ebbc1faddf57c4 = L.marker(
+                [29.7604267, -95.3698028],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_4125954e92ab46bbb9821aaa1165f7bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f549bc9ff1974b44920a540a221c0616 = $(`<div id="html_f549bc9ff1974b44920a540a221c0616" style="width: 100.0%; height: 100.0%;">City: Houston<br>Date First Added: 1997-07-28<br>Sector: Energy</div>`)[0];
+            popup_4125954e92ab46bbb9821aaa1165f7bc.setContent(html_f549bc9ff1974b44920a540a221c0616);
+        
+
+        marker_d4a646643264488499ebbc1faddf57c4.bindPopup(popup_4125954e92ab46bbb9821aaa1165f7bc)
+        ;
+
+        
+    
+    
+            var marker_b426159c42c7475baaff30c277891fe3 = L.marker(
+                [39.7392358, -104.990251],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_8bb1af2b3afe447bbcb64e07fce142ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62b50dd339dd44b197e835ac309dd438 = $(`<div id="html_62b50dd339dd44b197e835ac309dd438" style="width: 100.0%; height: 100.0%;">City: Denver<br>Date First Added: 2003-03-14<br>Sector: Real Estate</div>`)[0];
+            popup_8bb1af2b3afe447bbcb64e07fce142ef.setContent(html_62b50dd339dd44b197e835ac309dd438);
+        
+
+        marker_b426159c42c7475baaff30c277891fe3.bindPopup(popup_8bb1af2b3afe447bbcb64e07fce142ef)
+        ;
+
+        
+    
+    
+            var marker_db54966124964a72ac9afc5f9ffa2926 = L.marker(
+                [37.3229978, -122.0321823],
+                {"fill": true, "fillOpacity": 0.7, "maxWidth": 450, "radius": 12, "thresholdScale": [0, 1, 2, 3]}
+            ).addTo(map_65e08c1c265c4e4c97a7c624528cb282);
+        
+    
+        var popup_ae98a9be0a284453b58209c104a39f32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_072b0120b9a049e19c4e156f69ce3704 = $(`<div id="html_072b0120b9a049e19c4e156f69ce3704" style="width: 100.0%; height: 100.0%;">City: Cupertino<br>Date First Added: 1982-11-30<br>Sector: Information Technology</div>`)[0];
+            popup_ae98a9be0a284453b58209c104a39f32.setContent(html_072b0120b9a049e19c4e156f69ce3704);
+        
+
+        marker_db54966124964a72ac9afc5f9ffa2926.bindPopup(popup_ae98a9be0a284453b58209c104a39f32)
+        ;
+
+        
+    
+</script>
